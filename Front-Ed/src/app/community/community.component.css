@@ -1,0 +1,70 @@
+.bg-grad{
+    background-color:rgb(221, 236, 243);
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.communityPic {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    border-width: 4px;
+    border-style: double;
+    border-color: #3ec873;
+}
+
+.status {
+    width:120px;
+    border-radius: 10px;
+}
+
+.create {
+    color: #3ec873;
+    transition: transform 2s;
+}
+
+.create:hover {
+    color: #0fbe52;
+    transform: scale(1.1);
+}
+
+.create-text {
+    color: black;
+    font-size: 36px;
+    font-family: "Fredoka One";
+}
+
+.bg-mod
+{
+    background-color:rgb(170, 220, 243);
+}
+
+.butt
+{
+    padding: 10px;
+    width: 70px;
+}
+
+.butt2
+{
+    padding: 10px;
+}
+
+.butt:hover
+{
+    background-color: rgb(120, 182, 211);
+}
+
+.mod-rad
+{
+    border-radius: 10px;
+}
+
+.mod-radtop
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+

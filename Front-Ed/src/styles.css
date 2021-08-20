@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Goldplay";
+    src: url(assets/font/GoldplayRegular.otf);
+}
+
+html * {
+    scroll-behavior: smooth;
+    font-family: "Goldplay";
+}
+
+
+.bg-sla{
+    background-color: #D9EFFC;
+}
+
+.mr-3{
+    margin-right: 3pt;
+}
+
+.oikos-border {
+    border-radius: 7px;
+    border-style: solid;
+    border-color: rgba(100, 100, 100, 0.26);
+    border-width: 1px;
+}
+
+.debug {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-36 {
+    font-size: 36px;
+}
+
+.fs-54 {
+    font-size: 54px;
+}
+
+.fs-108 {
+    font-size: 108px;
+}
+
+.fs-204 {
+    font-size: 204px;
+}
+

@@ -1,0 +1,76 @@
+.fs-user{
+    font-size: 14pt;
+}
+
+small{
+    font-size: 9pt;
+}
+
+.bg-sla{
+    background-color: #D9EFFC;
+}
+
+.fs-follow{
+    font-size: 12pt;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.communityPic {
+    width: 90%;
+    height: 70px;
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: double;
+    border-color: #0fbe8c;
+    display: block;
+}
+
+.businessPic {
+    width: 90%;
+    height: 70px;
+    border-radius: 45px;
+    border-width: 4px;
+    border-style: double;
+    border-color: #0fbe8c;
+    display: block;
+}
+
+.post-img {
+    max-height: 500px;
+    width: auto;
+}
+
+.bg-img{
+    background-image: url(https://i.pinimg.com/originals/cc/f7/37/ccf737b92967ddb1ad489e257d7275e2.png);
+}
+
+.m-end{
+    margin-left: 72%;
+}
+.fs{
+    font-size: 20pt;
+    margin-left: 8pt;
+}
+.btn:hover{
+    border-color: black;
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.hover:hover {
+    transform: scale(1.2);
+}
+
+.mw{
+    max-width: 650px;
+}

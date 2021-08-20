@@ -1,0 +1,41 @@
+.fs-user{
+    font-size: 14pt;
+}
+
+small{
+    font-size: 9pt;
+}
+
+.bg-sla{
+    background-color: #D9EFFC;
+}
+
+.fs-follow{
+    font-size: 12pt;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+}
+
+.communityPic {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+    border-width: 4px;
+    border-style: double;
+    border-color: #0fbe8c;
+}
+
+.post-img {
+    max-height: 500px;
+    width: auto;
+}

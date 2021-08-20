@@ -1,0 +1,72 @@
+<div class="container-fluid" id="bg-img">
+
+    <a routerLink="/entrar"><i class="fas fa-arrow-circle-left back"></i></a>
+
+    <div class="row d-flex justify-content-center">
+
+        <div class="col-md-6 top d-flex justify-content-center ">
+            <div class="align-items-center">
+                <img class="logo" src="../../assets/img/logo-oikos-int.png">
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3 d-flex justify-content-center">
+
+        <div class="col-md-6 bg-w box">
+
+
+            <h1 class="text-center m-0 mt-2 fw-bold">Cadastrar</h1>
+            <form class="p-3 m-0">
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input [(ngModel)]="profile.profileName" class="form-control form-st" type="text" name="name"
+                        id="name" placeholder="Nome Completo">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input [(ngModel)]="profile.profileAlias" class="form-control form-st" type="text" name="alias" id="alias"
+                        placeholder="Usuário">
+                </div>
+
+                <div class="form-group ">
+                    <label for="email"></label>
+                    <input [(ngModel)]="profile.profileEmail" class="form-control form-st" type="text" name="email"
+                        id="email" placeholder="E-mail">
+                </div>
+
+                <div class="form-group">
+                    <label for="pic"></label>
+                    <input [(ngModel)]="profile.profilePic" class="form-control form-st" type="text" name="pic" id="pic"
+                        placeholder="Link da Foto">
+                </div>
+
+
+                <div class="">
+                    <label for="senha" class="form-label"></label>
+                    <input (input)="confirmSenha($event)" type="password" class="form-control form-st" id="senha"
+                        placeholder="Senha">
+                </div>
+
+
+                <div class="form-group mb-3">
+                    <label for="confirmPassword"></label>
+                    <input [(ngModel)]="profile.profilePassword" class="form-control form-st" type="password"
+                        name="confirmPassword" id="confirmPassword" placeholder="Confirme sua senha">
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-end">
+
+        <button type="submit" class="btn btn-primary butt fw-bold me-3" (click)='cadastrar()'>Cadastrar</button>
+
+    </div>
+
+
+
+</div>

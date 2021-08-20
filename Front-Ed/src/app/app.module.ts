@@ -1,0 +1,56 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+
+import { HttpClientModule } from '@angular/common/http'
+import { AppRoutingModule } from './app-routing.module';
+import { AppComponent } from './app.component';
+import { NavComponent } from './nav/nav.component';
+import { HomeComponent } from './home/home.component';
+import { FooterComponent } from './footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ContactComponent } from './contact/contact.component';
+import { EntrarComponent } from './entrar/entrar.component';
+import { CadastrarComponent } from './cadastrar/cadastrar.component';
+import { FormsModule } from '@angular/forms';
+import { AuthService } from './service/auth.service';
+import { CommunityComponent } from './community/community.component';
+import { MessageComponent } from './message/message.component';
+import { environment } from 'src/environments/environment.prod';
+import { HashLocationStrategy, LocationStrategy } from '@angular/common';
+import { CommunityPageComponent } from './community-page/community-page.component';
+import { ProfilePageComponent } from './page/profile-page/profile-page.component';
+import { BusinessPageComponent } from './page/business-page/business-page.component';
+import { StoreComponent } from './store/store.component';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    NavComponent,
+    HomeComponent,
+    FooterComponent,
+    AboutUsComponent,
+    ContactComponent,
+    EntrarComponent,
+    CadastrarComponent,
+    CommunityComponent,
+    MessageComponent,
+    CommunityPageComponent,
+    ProfilePageComponent,
+    BusinessPageComponent,
+    StoreComponent,
+  ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
+  ],
+  providers: [{
+    provide: LocationStrategy,
+    useClass: HashLocationStrategy
+  }],
+  bootstrap: [AppComponent]
+})
+export class AppModule {
+
+}

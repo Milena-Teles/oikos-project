@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin:0;
+}
+
+.modal-dialog {
+    margin-left: 35%;
+}
+
+.main {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.super-header {
+    height: 415px;
+    background-color: rgba(0, 0, 0, 0.671);
+}
+
+.header {
+    height: 400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.business-pic {
+    height: 150px;
+    width: 150px;
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgba(204, 164, 33, 0.87);
+}
+
+.business-icon {
+    height: 60px;
+    width: 60px;
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(204, 164, 33, 0.87);
+}
+
+.post-img {
+    max-width: 80%px;
+    height: auto;
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.more-info {
+    background-color: white;
+    height: 500px;
+}
+
+.feed {
+    background-color: white;
+    height: 100%;
+}
+
+.publish {
+    background-color: white;
+}
+
+.newpost {
+
+    width: 95%;
+}
+
+.post {
+    width: 90%;
+}
+
+.post-header {
+    background-color: rgba(13, 207, 39, 0.411);
+    background-color: rgba(11, 177, 149, 0.411);
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+.bg-publish {
+    border-color: rgba(135, 59, 179, 0.582);
+}
+
+.bg-publish:hover {
+    background-color:rgba(72, 20, 102, 0.712);
+}
+
+.btn-outline-info {
+    border-color: rgba(135, 59, 179, 0.582);
+    color: rgba(135, 59, 179, 0.582);
+}
+
+.btn-outline-info:hover {
+    background-color: rgba(135, 59, 179, 0.582);
+    color: white;
+}
+
+.comment {
+    font-size: 15px;
+}
+

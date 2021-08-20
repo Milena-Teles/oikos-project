@@ -1,0 +1,29 @@
+.bg
+{
+    background-color: rgb(226, 223, 223);
+}
+
+.title
+{
+    text-decoration: none;
+    padding: 0%;
+    color: black;
+}
+
+.title:hover
+{
+    color: cadetblue;
+}
+
+ul.social li
+{
+
+    margin: 0%;
+    padding: 5px;
+} 
+
+.logo
+{
+    width: 150px;
+    padding: 10px;
+}

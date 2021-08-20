@@ -1,0 +1,53 @@
+#bg-img
+{
+    background-image: url("../../assets/img/fundocadastro.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-w
+{
+    background-color: white;
+    border-radius: 15px;
+}
+
+.logo
+{
+
+    width: 300px;
+}
+
+.top
+{
+    margin-top: px;
+}
+
+.box
+{
+    width: 500px;
+}
+
+.form-st
+{
+    width: 100%;
+    padding: 14px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .back
+  {
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+      padding: 20px;
+  }
+
+  .butt
+  {
+    font-size: 20px;
+    padding: 14px 20px;
+    border-radius: 4px;
+    margin-top: 60px;
+  }
